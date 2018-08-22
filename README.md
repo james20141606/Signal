@@ -16,8 +16,7 @@ Several tricks:
 - z score normalization to optimize the model easier.
 - we use mean shift to find modes in gaussian mixture
 
-![](https://github.com/james20141606/NMJ_automatic_pipeline/blob/master/10.png)
-https://github.com/james20141606/Signal/blob/master/plot/mode_finding.png
+![](https://github.com/james20141606/Signal/blob/master/plot/mode_finding.png)
 
 ### data
 - data position
