@@ -17,7 +17,8 @@ Several tricks:
 - we use mean shift to find modes in gaussian mixture
 
 ![](https://github.com/james20141606/Signal/blob/master/plot/mode_finding.png)
-
+### result
+![](https://github.com/james20141606/Signal/blob/master/plot/prediction_gt.png)
 ### data
 - data position
 ![](https://github.com/james20141606/Signal/blob/master/plot/split_data.png)
