@@ -8,7 +8,7 @@ We use pytorch and tensorflow to develop our mixture density network.
 - Several 2D gaussian distribution is mixed to form a mixed gaussian distribution.
 ![](https://github.com/james20141606/Signal/blob/master/plot/gaussian_mixture.png)
 - We use Maximum Likelihood Estimation, choose negetive log likelihood as our loss function for optimization
-![](https://github.com/james20141606/Signal/blob/master/plot/屏幕快照 2018-10-05 下午10.04.29.png)
+![](https://github.com/james20141606/Signal/blob/master/plot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-10-05%20%E4%B8%8B%E5%8D%8810.04.29.png)
 
 
 Several tricks:
