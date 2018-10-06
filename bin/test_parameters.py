@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 import sys,argparse,os,time
 sys.path.append('bin')
 

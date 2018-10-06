@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 import torch
 import torch.nn as nn
 import torch.utils.data
@@ -95,3 +96,4 @@ def report_metrics(y_test_data,y_test):
     rmse = np.mean(np.sum((y_test_data - y_test)**2,axis=1)**0.5)
     pcc = scipy.stats.pearsonr(y_test_data.ravel(),y_test.ravel())
     return rmse,pcc
+

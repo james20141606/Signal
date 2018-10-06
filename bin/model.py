@@ -1,3 +1,4 @@
+#! /usr/bin/env python
 import torch
 import torch.nn as nn
 import torch.utils.data
@@ -11,6 +12,8 @@ from scipy.stats import multivariate_normal
 from scipy.signal import argrelmax
 import scipy
 import numpy as np
+import sys
+sys.path.append('bin')
 from utils import mdn_loss, mdn_logp
 
 
