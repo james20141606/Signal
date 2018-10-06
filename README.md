@@ -1,4 +1,4 @@
-Mixture Density Network for joint position coordinates prediction
+# Mixture Density Network for joint position coordinates prediction
 
 
 
@@ -8,7 +8,7 @@ We use pytorch and tensorflow to develop our mixture density network.
 - Several 2D gaussian distribution is mixed to form a mixed gaussian distribution.
 ![](https://github.com/james20141606/Signal/blob/master/plot/gaussian_mixture.png)
 - We use Maximum Likelihood Estimation, choose negetive log likelihood as our loss function for optimization
-
+![](https://github.com/james20141606/Signal/blob/master/plot/屏幕快照 2018-10-05 下午10.04.29.png)
 
 
 Several tricks:
@@ -20,9 +20,17 @@ Several tricks:
 ### result
 ![](https://github.com/james20141606/Signal/blob/master/plot/prediction_gt.png)
 ### data
+#### mountain data
 - data position
 ![](https://github.com/james20141606/Signal/blob/master/plot/split_data.png)
 - t-SNE to cluster data
 ![](https://github.com/james20141606/Signal/blob/master/plot/t-SNE.png)
 - feature distribution
 ![](https://github.com/james20141606/Signal/blob/master/plot/3D_surface_of_feature_00.png)
+####  city data
+- data position
+![](https://github.com/james20141606/Signal/blob/master/plot/citydata.png)
+- receriver position
+![](https://github.com/james20141606/Signal/blob/master/plot/city_rx.png)
+- transmitter position
+![](https://github.com/james20141606/Signal/blob/master/plot/city_tx.png)
