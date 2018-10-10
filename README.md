@@ -1,6 +1,6 @@
 # Mixture Density Network for joint position coordinates prediction
 
-
+Also see my [website page](https://www.cmwonderland.com/blog/2018/10/10/94-signal-project/)
 
 ### model
 We use pytorch and tensorflow to develop our mixture density network. 
