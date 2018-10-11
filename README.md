@@ -40,3 +40,4 @@ We use PCC to quantify the PCC between samples' features and distance. We use dy
 ![](https://github.com/james20141606/Signal/blob/master/plot/weight_change_10.gif)
 
 We plan to use some imputation method, including some methods from single cell analysis. We also aim to use RNN for changeable size feature and attention model to pick more related features.
+
